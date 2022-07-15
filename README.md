@@ -30,4 +30,4 @@
 1. Install Java 8 (or later), for example with HomeBrew: `brew install java`
 2. Make sure `java` and `javac` commands are available from console
 3. Make `run_app.sh` executable: `chmod +x run_app.sh`
-4. Run the app from the root folder: `run_app.sh`
+4. Run the app from the root folder: `./run_app.sh`
