@@ -7,9 +7,9 @@ public class GamePlayer {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please, enter a board size: ");
+        System.out.println("Please, enter board size: ");
         String size = scanner.nextLine();
-        System.out.println("Please, enter a number of bombs: ");
+        System.out.println("Please, enter number of bombs: ");
         String bombs = scanner.nextLine();
         Board board = new Board(Integer.parseInt(size), Integer.parseInt(bombs));
         System.out.println("Board, internal state:");

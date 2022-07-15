@@ -25,3 +25,9 @@
 
 ### Part 4
 - `Board` class comes with the method `click` which imitates the clink on a cell. It returns a list of `BoardCell` instances that were open. Each instance contains the coordinates along with the number of adjacent bombs needed by a client to represent the results of the click. Please refer to the code documentation for more details
+
+### Run the app
+1. Install Java 8 (or later), for example with HomeBrew: `brew install java`
+2. Make sure `java` and `javac` commands are available from console
+3. Make `run_app.sh` executable: `chmod +x run_app.sh`
+4. Run the app from the root folder: `run_app.sh`
